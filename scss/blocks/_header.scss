@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 400px;
+    
+}
+
+.nav-item + .nav-item{
+    margin-left: 30px;
+}
+
+.input__navbar{
+    margin-left: auto;
+}

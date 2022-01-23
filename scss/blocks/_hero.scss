@@ -1,0 +1,54 @@
+.hero{
+    border-bottom: 2px solid #DDDDDD;
+    
+}
+
+.hero__wrapper{
+    width: 40%;
+    height: 567px;
+    padding-top: 130px;
+    
+}
+
+.hero__description{
+    position: relative;
+    margin-top: 30px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+
+      
+}
+
+.hero__description::before{
+    content: "";
+    position: absolute;
+    transform: rotate(90deg);   
+    width: 120px;
+    height: 3px;
+    top: 50px;
+    left: -60px;
+    background-color: #88888888;
+}
+
+
+.hero__button{
+    width: 269px;
+    height: 51px;
+    padding: 12 38;
+    background-color: #EA625C;
+    color: #FFFFFF;
+    &:hover{
+        opacity: 0.7;
+
+    }
+}
+.hero__img{
+    width: 547px;
+    height: 525px;
+    object-fit: contain;
+
+    right: 0;
+    top: 153px;
+    position: absolute;
+}
+
